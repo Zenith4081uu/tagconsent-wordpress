@@ -1,0 +1,14 @@
+.tagconsent-wrap { max-width: 1200px; }
+.tagconsent-wrap h1 { display: flex; align-items: center; margin-bottom: 20px; }
+.tagconsent-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; margin-bottom: 20px; }
+.tagconsent-card { background: #fff; border: 1px solid #c3c4c7; border-radius: 8px; padding: 20px; }
+.tagconsent-card h3 { margin: 0 0 12px; font-size: 15px; color: #1d2327; border-bottom: 2px solid #f26522; padding-bottom: 8px; }
+.tagconsent-card ul { margin: 0; padding: 0; list-style: none; }
+.tagconsent-card ul li { padding: 4px 0; }
+.tagconsent-card ul li a { text-decoration: none; }
+.tagconsent-card-wide { grid-column: 1 / -1; }
+.tc-status { display: inline-block; padding: 4px 12px; border-radius: 4px; font-weight: 600; font-size: 13px; }
+.tc-status-ok { background: #d4edda; color: #155724; }
+.tc-status-error { background: #f8d7da; color: #721c24; }
+.tc-status-warn { background: #fff3cd; color: #856404; }
+#tc-btn-sync, #tc-btn-test { margin-top: 10px; margin-right: 8px; }
